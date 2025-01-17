@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --discord-title: #add8e6;
+    --discord-logo: #daa520;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    background-color: var(--discord-title);
+}
+
+.item{
+    background-color: var(--discord-logo);
+    line-height: 30px;
+    min-width: 150px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.item-central{
+    width: 400px;
+}
+
+
