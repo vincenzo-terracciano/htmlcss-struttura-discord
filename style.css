@@ -7,26 +7,58 @@
 :root{
     --discord-title: #add8e6;
     --discord-logo: #daa520;
+    --discord-jumbotron: #00008b;
+    --discord-jb: #ee82ee;
+
+}
+
+header{
+    background-color: var(--discord-title);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
 }
 
 .d-flex{
     display: flex;
-    justify-content: center;
     align-items: center;
     min-height: 50px;
-    background-color: var(--discord-title);
 }
 
 .item{
     background-color: var(--discord-logo);
     line-height: 30px;
-    min-width: 150px;
+    width: 15%;
     border: 1px solid black;
     text-align: center;
 }
 
 .item-central{
-    width: 400px;
+   flex-grow: 1;
 }
+
+section{
+    background-color: var(--discord-jumbotron);
+}
+
+.jumbotron{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 450px;
+}
+
+.jb{
+    background-color: var(--discord-jb);
+    width: 700px;
+    height: 350px;
+
+
+}
+
+
+
 
 
