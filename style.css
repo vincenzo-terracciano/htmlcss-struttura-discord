@@ -11,6 +11,7 @@
     --discord-jb: #ee82ee;
     --discord-inv-left: #1e90ff;
     --discord-inv-right: #ffc0cb;
+    --discord-community: #d3d3d3;
 }
 
 header{
@@ -67,20 +68,41 @@ header{
 .invite-only{
     display: flex;
     align-items: center;
-    justify-content: center;
-    min-height: 550px;
+    padding: 40px;  
 
 }
 
 .inv-left{
     background-color: var(--discord-inv-left);
-    width: 650px;
+    width: 60%;
     height: 400px;
 }
 
 .inv-right{
     background-color: var(--discord-inv-right);
-    width: 250px;
+    width: 40%;
+    height: 400px;
+}
+
+.comm-sec{
+    background-color: var(--discord-community);
+}
+
+.community{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.com-left{
+    background-color: var(--discord-inv-right);
+    width: 40%;
+    height: 400px;
+}
+
+.com-right{
+    background-color: var(--discord-inv-left);
+    width: 60%;
     height: 400px;
 }
 
