@@ -12,6 +12,8 @@
     --discord-inv-left: #1e90ff;
     --discord-inv-right: #ffc0cb;
     --discord-community: #d3d3d3;
+    --discord-technology: #228b22;
+
 }
 
 header{
@@ -41,23 +43,20 @@ header{
    flex-grow: 1;
 }
 
-.jumbo-sec{
-    background-color: var(--discord-jumbotron);
-}
+
 
 .jumbotron{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 450px;
+    background-color: var(--discord-jumbotron);
 }
 
 .jb{
     background-color: var(--discord-jb);
     width: 700px;
     height: 350px;
-
-
 }
 
 
@@ -106,4 +105,13 @@ header{
     height: 400px;
 }
 
+.tech-sec{
+    background-color: var(--discord-community);
+    padding: 30px;
+}
+
+.technology{
+    background-color: var(--discord-technology);
+    height: 600px;
+}
 
